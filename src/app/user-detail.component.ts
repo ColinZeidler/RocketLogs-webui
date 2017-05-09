@@ -8,7 +8,7 @@ import { User } from './user'
       <h2>Welcome {{user.name}}</h2>
       <div>
         <label>name: </label>
-        <input [(ngModel)]="user.name" placeholder="name">
+        <input [(ngModel)]="user.username" placeholder="name">
       </div>
       <div>
         <label>email: </label>
